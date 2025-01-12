@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Styled Navigation Bar</title> 
+  <style>
+   
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+nav {
+  background-color: #333;
+  padding: 10px 20px;
+}
+
+.navbar {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline-block;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 10px 15px;
+  display: block;
+  transition: all 0.3s ease;
+}
+
+.navbar a:hover {
+  font-size: 20px; 
+  color: #ff6347;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); 
+}
+
+  </style>
+</head>
+<body>
+  <nav>
+    <ul class="navbar">
+      <li><a href="#about">About</a></li>
+      <li><a href="#project-details">Project Details</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#recommendations">Recommendations</a></li>
+    </ul>
+  </nav>
+</body>
+</html>
